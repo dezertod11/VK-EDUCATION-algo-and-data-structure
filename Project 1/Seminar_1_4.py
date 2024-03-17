@@ -1,4 +1,4 @@
-def move_even_to_front(arr):
+def pppp(arr):
     pointer1 = 0
     pointer2 = 1
 
@@ -10,6 +10,8 @@ def move_even_to_front(arr):
         pointer2 += 1
     return arr
 
+
 arr = [1,2,3,4,5,6,0,0]
-moved_null = move_even_to_front(arr)
-print(moved_null)
+pppp(arr)
+# moved_null = move_even_to_front(arr)
+# print(moved_null)

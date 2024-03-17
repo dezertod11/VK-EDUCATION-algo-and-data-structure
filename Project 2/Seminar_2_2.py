@@ -49,7 +49,6 @@ class LinkedList:
             cur = next
 
         self.head = prev
-        return self.head
 
 
 linked_list = LinkedList()
@@ -58,5 +57,5 @@ for i in list[::-1]:
     linked_list.append_front(i)
 
 linked_list.print_list()
-print(linked_list.reverse_linked_list().get())
+print(linked_list.reverse_linked_list())
 linked_list.print_list()
