@@ -1,4 +1,4 @@
-def move_null_to_end(arr):
+def move_even_to_front(arr):
     pointer1 = 0
     pointer2 = 1
 
@@ -11,5 +11,5 @@ def move_null_to_end(arr):
     return arr
 
 arr = [1,2,3,4,5,6,0,0]
-merged_array = move_null_to_end(arr)
-print(merged_array)
+moved_even = move_even_to_front(arr)
+print(moved_even)
