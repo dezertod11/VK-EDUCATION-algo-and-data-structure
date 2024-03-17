@@ -11,5 +11,5 @@ def move_even_to_front(arr):
     return arr
 
 arr = [1,2,3,4,5,6,0,0]
-moved_even = move_even_to_front(arr)
-print(moved_even)
+moved_null = move_even_to_front(arr)
+print(moved_null)
