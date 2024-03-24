@@ -18,6 +18,3 @@ def binary_searc_sqrt(target):
         return r
     return r
 
-for i in range(1,50):
-    print(math.sqrt(i),binary_searc_sqrt(i))
-    print()

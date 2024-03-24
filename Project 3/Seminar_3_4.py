@@ -13,11 +13,3 @@ def is_palindrome_pointer(s):
         l += 1
         r -= 1
     return True
-
-
-s1 = "abcdefg"
-ss = "sasha ahsas"
-sos = "sosos"
-
-print(is_palindrome_stack(s1),is_palindrome_stack(ss),is_palindrome_stack(sos))
-print(is_palindrome_pointer(s1),is_palindrome_pointer(ss),is_palindrome_pointer(sos))

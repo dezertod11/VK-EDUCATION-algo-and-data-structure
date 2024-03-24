@@ -36,32 +36,21 @@ def left_bin_search(data, target):
             return -1
 
 
-def right_bin_search(data, target):
-    l = 0
-    r = len(data) - 1
-
-    while l + 1 < r:
-        m = (l + r) // 2
-        if data[m] < target:
-            dfdd
-
-def bin_search_answer(data, ):
-    return 0
-
 def copy_time(n, x, y):
     l = 0
     r = (n - 1) * max(x, y)
+    N = 10 # precision, accuracy
+    eps = pow(10, -N)
 
-    while l + 0.00000000000001 < r:
+    while l + eps < r:
         mid = (l + r) / 2
         if (int(mid/x) + int(mid/y)) < n - 1:
             l = mid
         else:
             r = mid
 
-    return r + min(x, y)
+    return round(r + min(x, y), N - 1)
 
-print(copy_time(7,1,3))
 
 
 

@@ -12,8 +12,7 @@ def remove_same_char(s):
         l += 1
 
 
-    return str(s)
+    return s
 
-s = "uioouiouuo"
-print(remove_same_char(s))
+
 

@@ -24,8 +24,3 @@ def is_subsequence_pointer(a, b):
     return (l_a == r_a + 1)
 
 
-a = list("aaa")
-b = list("ababaas")
-
-print(is_subsequence_queue(a,b))
-print(is_subsequence_pointer(a,b))
