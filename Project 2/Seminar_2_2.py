@@ -51,11 +51,12 @@ class LinkedList:
         self.head = prev
 
 
-linked_list = LinkedList()
-list = [i for i in range(1, 11)]
-for i in list[::-1]:
-    linked_list.append_front(i)
-
-linked_list.print_list()
-print(linked_list.reverse_linked_list())
-linked_list.print_list()
+# linked_list = LinkedList()
+# list = [i for i in range(1, 11)]
+# for i in list[::-1]:
+#     linked_list.append_front(i)
+#
+#
+# linked_list.print_list()
+# print(linked_list.reverse_linked_list())
+# linked_list.print_list()

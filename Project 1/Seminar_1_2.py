@@ -12,7 +12,7 @@ def merge_sorted_arrays(arr1, arr2):
     merged_array.extend(arr2[j:])
     return merged_array
 
-arr1 = [1,2,3,4,5,6,7,8]
-arr2 = [1,5,6,7,8,10]
-merged_array = merge_sorted_arrays(arr1,arr2)
-print(merged_array)
+# arr1 = [1,2,3,4,5,6,7,8]
+# arr2 = [1,5,6,7,8,10]
+# merged_array = merge_sorted_arrays(arr1,arr2)
+# print(merged_array)

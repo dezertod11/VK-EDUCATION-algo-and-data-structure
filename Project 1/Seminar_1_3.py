@@ -14,7 +14,7 @@ def merge_sorted_arrays(arr1, arr2):
 
     return arr1
 
-arr1 = [1,2,3,4,5,6,0,0]
-arr2 = [1,5]
-merged_array = merge_sorted_arrays(arr1,arr2)
-print(merged_array)
+# arr1 = [1,2,3,4,5,6,0,0]
+# arr2 = [1,5]
+# merged_array = merge_sorted_arrays(arr1,arr2)
+# print(merged_array)

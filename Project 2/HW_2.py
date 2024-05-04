@@ -74,34 +74,31 @@ def merge_sorted_linked_list(list1, list2):
             last = cur2
             cur2 = cur2.next
 
-    while (cur1 != None):
+    if (cur1 != None):
         last.next = cur1
-        last = cur1
-        cur1 = cur1.next
-    while (cur2 != None):
+
+    if (cur2 != None):
         last.next = cur2
-        last = cur2
-        cur2 = cur2.next
 
     return merge_list
 
-linked_list1 = LinkedList()
-list1 = [i for i in range(1, 11, 2)]
-for i in list1[::-1]:
-    linked_list1.append_front(i)
-print("linked_list1:")
-linked_list1.print_list()
-
-linked_list2 = LinkedList()
-list2 = [i for i in range(6, 16, 2)]
-for i in list2[::-1]:
-    linked_list2.append_front(i)
-print("\nlinked_list2:")
-linked_list2.print_list()
-
-merge_linked_list = merge_sorted_linked_list(linked_list1, linked_list2)
-print("\nmerged_linked_list:")
-merge_linked_list.print_list()
+# linked_list1 = LinkedList()
+# list1 = [i for i in range(1, 11, 2)]
+# for i in list1[::-1]:
+#     linked_list1.append_front(i)
+# print("linked_list1:")
+# linked_list1.print_list()
+#
+# linked_list2 = LinkedList()
+# list2 = [i for i in range(6, 16, 2)]
+# for i in list2[::-1]:
+#     linked_list2.append_front(i)
+# print("\nlinked_list2:")
+# linked_list2.print_list()
+#
+# merge_linked_list = merge_sorted_linked_list(linked_list1, linked_list2)
+# print("\nmerged_linked_list:")
+# merge_linked_list.print_list()
 
 
 

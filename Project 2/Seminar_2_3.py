@@ -46,10 +46,10 @@ class LinkedList:
         return slow
 
 
-linked_list = LinkedList()
-list = [i for i in range(-50, 100)]
-for i in list[::-1]:
-    linked_list.append_front(i)
-
-linked_list.print_list()
-print(linked_list.middleNode().get())
+# linked_list = LinkedList()
+# list = [i for i in range(-50, 100)]
+# for i in list[::-1]:
+#     linked_list.append_front(i)
+#
+# linked_list.print_list()
+# print(linked_list.middleNode().get())

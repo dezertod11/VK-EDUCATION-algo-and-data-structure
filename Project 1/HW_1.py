@@ -1,4 +1,4 @@
-def merge_sorted_arrays(arr):
+def move_null_to_front(arr):
     pointer1 = 0
     pointer2 = 1
     while pointer2 < len(arr):
@@ -15,10 +15,10 @@ def reverseArray(arr, left, right):
         left  += 1
         right -= 1
 def move_null_to_end(arr):
-    merged_array = merge_sorted_arrays(arr)
+    move_null_to_front(arr)
     reverseArray(arr, 0, len(arr) - 1)
     return arr
 
-arr = [1,2,0,3,4,5,6,0]
-moved_null = move_null_to_end(arr)
-print(moved_null)
+# arr = [1,2,0,3,4,5,6,0]
+# moved_null = move_null_to_end(arr)
+# print(moved_null)

@@ -12,7 +12,7 @@ def solution(arr, k):
 
 
 
-arr = [1,2,3,4,5,6,7,8]
-k = 4
-solution(arr, k)
-print(arr)
+# arr = [1,2,3,4,5,6,7,8]
+# k = 4
+# solution(arr, k)
+# print(arr)

@@ -67,17 +67,17 @@ class LinkedList:
 
         self.head = dummy.next
 
-linked_list = LinkedList()
-list = [i for i in range(1, 11)]
-for i in list[::-1]:
-    linked_list.append_front(i)
-
-linked_list.print_list()
-linked_list.remove_element(1)
-linked_list.print_list()
-linked_list.remove_element(5)
-linked_list.print_list()
-linked_list.remove_element(10)
-linked_list.print_list()
-linked_list.remove_element(11)
-linked_list.print_list()
+# linked_list = LinkedList()
+# list = [i for i in range(1, 11)]
+# for i in list[::-1]:
+#     linked_list.append_front(i)
+#
+# linked_list.print_list()
+# linked_list.remove_element(1)
+# linked_list.print_list()
+# linked_list.remove_element(5)
+# linked_list.print_list()
+# linked_list.remove_element(10)
+# linked_list.print_list()
+# linked_list.remove_element(11)
+# linked_list.print_list()

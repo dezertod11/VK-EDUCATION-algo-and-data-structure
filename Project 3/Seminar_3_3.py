@@ -14,7 +14,5 @@ def binary_searc_sqrt(target):
     middle = (l + r) / 2
     if pow(middle,2) > target:
         return l
-    else:
-        return r
     return r
 

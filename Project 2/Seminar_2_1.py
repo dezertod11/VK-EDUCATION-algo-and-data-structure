@@ -60,16 +60,16 @@ class LinkedList:
 
         return True
 
-linked_list = LinkedList()
-list = [i for i in range(1, 6)]
-for i in list[::-1]:
-    linked_list.append_front(i)
-
-linked_list.print_list() # print initial list
-print(linked_list.cycle_or_not()) # check whether linked_list is cycle or not
-linked_list.make_cycle(3) # making linked_list cyclic
-print(linked_list.cycle_or_not()) # check whether linked_list is cycle or not
-#linked_list.print_list() # print cycle linked_list :)))))
+# linked_list = LinkedList()
+# list = [i for i in range(1, 6)]
+# for i in list[::-1]:
+#     linked_list.append_front(i)
+#
+# linked_list.print_list() # print initial list
+# print(linked_list.cycle_or_not()) # check whether linked_list is cycle or not
+# linked_list.make_cycle(3) # making linked_list cyclic
+# print(linked_list.cycle_or_not()) # check whether linked_list is cycle or not
+# #linked_list.print_list() # print cycle linked_list :)))))
 
 
 

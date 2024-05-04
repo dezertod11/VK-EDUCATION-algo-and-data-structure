@@ -44,7 +44,7 @@ def copy_time(n, x, y):
 
     while l + eps < r:
         mid = (l + r) / 2
-        if (int(mid/x) + int(mid/y)) < n - 1:
+        if ((mid//x) + (mid//y)) < n - 1:
             l = mid
         else:
             r = mid

@@ -11,7 +11,8 @@ def pppp(arr):
     return arr
 
 
-arr = [1,2,3,4,5,6,0,0]
-pppp(arr)
+# arr = [1,2,3,4,5,6,0,0]
+# pppp(arr)
+# print(arr)
 # moved_null = move_even_to_front(arr)
 # print(moved_null)
